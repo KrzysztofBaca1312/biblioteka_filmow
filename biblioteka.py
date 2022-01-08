@@ -53,12 +53,12 @@ top_list = []
 
 def get_movies():
     for movie in _list:
-        if isinstance(movie,Movies) == True:
+        if isinstance(movie,Movies):
             movies_list.append(movie)
 
 def get_series():
     for serie in _list:
-        if isinstance(serie,Series) == True:
+        if isinstance(serie,Series):
          series_list.append(serie)
 
 def search(name_movie):
